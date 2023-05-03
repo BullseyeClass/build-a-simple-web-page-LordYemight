@@ -1,0 +1,41 @@
+body{
+  background-color: rgb(200, 229, 232);
+}
+h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+  text-align: center;
+}
+.pix{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  box-shadow: tomato;
+  
+}
+.lorem {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.but{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+button{
+  border-style: none;
+  height: 2rem;
+  width: 7rem;
+  color: rgb(200, 229, 232);
+  background-color: rgb(93, 24, 24);
+}
+button:hover
+{background-color: rgb(122, 107, 107);transition:background-color 0.5s;}
+button:active
+{opacity: 0.1;transition: opacity 0.5s;}
